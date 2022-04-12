@@ -29,7 +29,7 @@ span{color:cadetblue}
 	padding-top: 20px;
 }
 #header .navbar-nav{
-	padding-left: 120px;
+	padding-left: 80px;
 }
 #about{
 	margin: 80px;
@@ -79,20 +79,6 @@ li {
 } */
 
 
-/* .top-divider{
-	background: url(../images/divider.png) repeat-x;
-	width: 98%;
-	height: 9px;
-	margin-left: 13px;
-	margin-top: 10px;
-}
-.bottom-divider{
-	background: url(../images/divider.png) repeat-x;
-	width: 100%;
-	height: 9px;
-	margin-right: 13px;
-	margin-top: 20px;
-} */
 #experience{
 	margin: 80px;
 	padding-top: 100px;
