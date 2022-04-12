@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right,#3CCEBF,#3C79CE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+a{text-decoration: none;}
+/* Css for header */
+#header {
+    /* position: fixed; */
+    width: 100%;
+}
+#header nav {
+    padding: 20px 40px;
+}
+#header .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+#header .offcanvas-header {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#header .offcanvas-body {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    border-top: 2px solid #adadad;
+}
+#header .offcanvas-body a:hover {color: rgb(178, 181, 248);}
+/* Css form */
+.container {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: #21B1E9;
+}
+
+.form-control {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control input {
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    padding: 4px;
+    border: 2px #21C7F9 solid;
+    margin-right: 40px;
+}
+.form-control button {
+    border: none;
+    background-color: #0884FF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+.form-control button:hover {background-color: #08B1FF;}
+li{list-style: none;}
+ul{padding: 0;}
+i{color: red;}
+.add-remove ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.add-remove li {
+    background-color: #0884FF;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 0 13px;
+    font-weight: 600;
+    color: white;
+}
+.todos li{
+    background-color: rgb(229, 225, 225);
+    margin: 20px 13px;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{margin-left: 10px;}
+.clear {text-align: center;}
+.clear button {
+    background-color: #0884FF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+}
+.clear button:hover {background-color: #08B1FF;}
